@@ -72,22 +72,6 @@ module.exports = function(grunt) {
         }
     },
 
-	  ngdocs: {
-
-		  options: {
-		    dest: 'docs',
-		    html5Mode: false,
-		    title: 'Angular Timeline',
-            startPage: '/api/timeline',
-            sourceLink: 'https://stash.ovh.net/projects/UXCOMPONENTS/repos/ovh-timeline/browse/{{file}}'
-		  },
-		  api: {
-
-		  	src: ['src/**/*.js'],
-		  	title: 'API'
-		  }
-	  },
-
 	  // verifies we have formatted our js and HTML according to our style conventions
 	  jsbeautifier: {
 		  verify : {
@@ -140,7 +124,7 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['build','connect', 'watch']);
 	grunt.registerTask('beautify', ['jsbeautifier:update']);
   grunt.registerTask('build', [
-    'clean', 'less', 'jsbeautifier:verify', 'jshint', 'concat', 'ngdocs' //'karma'
+    'clean', 'less', 'jsbeautifier:verify', 'jshint', 'concat'
   ]);
 
   grunt.registerTask('default', [
