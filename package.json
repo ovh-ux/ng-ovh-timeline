@@ -2,10 +2,7 @@
   "name": "ovh-angular-timeline",
   "description": "FORK - An Angular.js directive that generates a responsive, data-driven vertical timeline to tell a story, show history or describe a sequence of events.",
   "author": "Robert Pocklington <rpocklin@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@stash.ovh.net:7999/uxcomponents/ovh-timeline.git"
-  },
+  "repository": "ovh-ux/ovh-timeline.git",
   "keywords": [
     "angular",
     "timeline",
