@@ -1,4 +1,4 @@
-/*global angular*/
+/* global angular*/
 
 /**
  * @ngdoc directive
@@ -8,12 +8,12 @@
  * @description
  * Shown in the centre pane (or left on narrow devices) to indicate the activity.
  */
-angular.module('ovh-angular-timeline').directive('timelineBadge', function() {
-  'use strict';
-  return {
-    require: '^timelineEvent',
-    restrict: 'AE',
-    transclude: true,
-    template: '<div ng-transclude class="timeline-badge"></div>'
-  };
+angular.module("ovh-angular-timeline").directive("timelineBadge", function () {
+    "use strict";
+    return {
+        require: "^timelineEvent",
+        restrict: "AE",
+        transclude: true,
+        template: '<div ng-transclude class="timeline-badge"></div>'
+    };
 });

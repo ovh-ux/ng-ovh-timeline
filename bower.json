@@ -4,7 +4,9 @@
   "license": "MIT",
   "main": [
     "dist/ovh-angular-timeline.js",
-    "dist/ovh-angular-timeline.css"
+    "src/ovh-angular-timeline-bootstrap.less",
+    "src/ovh-angular-timeline.less",
+    "src/ovh-angular-timeline-animations.less"
   ],
   "keywords": [
     "angular",
@@ -19,6 +21,7 @@
     "**/.*",
     "*.yml",
     ".jshintrc",
+    ".eslintrc.json",
     "node_modules",
     "bower_components",
     "example",
@@ -42,5 +45,15 @@
     "jquery": "^2.1.1",
     "bootstrap": "^3.3.4",
     "angular-scroll-animate": "^0.9.1"
-  }
+  },
+  "contributors": [
+        {
+            "name": "OVH SAS",
+            "url": "https://github.com/ovh-ux"
+        }
+    ],
+    "author": {
+        "name": "Robert Pocklingto",
+        "email": "rpocklin@gmail.com"
+    }
 }
