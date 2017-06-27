@@ -12,7 +12,6 @@
   "loopfunc":     true,
   "noarg":        true,
   "onevar":       false,
-  "quotmark":     "single",
   "smarttabs":    true,
   "trailing":     true,
   "undef":        true,
